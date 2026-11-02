@@ -58,6 +58,11 @@
 
 Below are concrete implementations and production software engineered across my core ecosystem:
 
+#### 🩺 [RxDesk](https://github.com/samimaktar081/rxdesk)
+`Rust` • `Tauri v2` • `SQLite WAL` • `Axum HTTPS` • `React 19`
+> Enterprise offline-first medical prescription, EHR timeline, and multi-terminal clinic automation platform. Features revolutionary pre-warming print engine (<20ms dispatch), mDNS zeroconf local LAN synchronization, and Ed25519 hardware-locked security (v2.1.5 production release).  
+> 👉 **[Explore Architecture & Release Report →](https://github.com/samimaktar081/rxdesk)**
+
 #### 📺 [MorningTV](https://github.com/samimaktar081/morningtv)
 `Rust` • `Tauri v2` • `Axum Proxy` • `React 19` • `IPTV`
 > Native 4K 60FPS video sentinel and bufferless live TV media player engineered with a high-performance in-process Axum loopback proxy, 300% Web Audio sound booster, and sub-second channel switching (<0.4s).  
