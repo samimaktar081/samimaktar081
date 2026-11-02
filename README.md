@@ -97,7 +97,7 @@ Below are concrete implementations and production software built using each core
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>📺 <a href="https://github.com/morningstarwebd/morningtv">MorningTV</a></h3>
+      <h3>📺 <a href="https://github.com/samimaktar081/morningtv">MorningTV</a></h3>
       <p><b>Stack:</b> <code>Rust</code> • <code>Tauri v2</code> • <code>GPU Dec</code> • <code>IPTV</code></p>
       <p>Native 4K 60FPS video sentinel and bufferless IPTV media player engineered with a high-performance Rust core, sub-second channel zap (&lt;0.4s), and zero latency playback.</p>
     </td>
