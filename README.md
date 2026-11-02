@@ -2,26 +2,28 @@
 
 <!-- Hero Animated Profile Card -->
 <a href="https://morningstarweb.space">
-  <img src="./assets/profile-card.svg" alt="Samim Aktar — Founder, MorningStar Web" width="100%" />
+  <img src="./assets/profile-card.svg" alt="Samim Aktar - Founder, MorningStar Web" width="100%" />
 </a>
 
 </div>
 
 ---
 
-### 💼 About Me
+### 👨‍💻 About Me
 
 > **Developer, product builder, and founder of [MorningStar Web](https://morningstarweb.space).**  
 > Focused on crafting scalable edge web systems, high-performance native desktop software, and intelligent AI automation engines for real-world production.
 
-- 🟢 **Full-Stack Web Systems** — Enterprise edge applications engineered with **Astro 7 SSR**, **Next.js**, **React 19**, and **Tailwind CSS**.
-- 🟢 **Native Desktop Applications** — Sub-second low-latency systems built with **Tauri v2**, **Rust core**, **C#**, and **.NET**.
-- 🟢 **AI & Automation Engines** — Voice/audio pipeline processing with **WhisperX**, **FFmpeg**, and autonomous **WhatsApp Cloud API** workers.
-- 🟢 **Edge Cloud Infrastructure** — High-availability serverless deployments on **Cloudflare Workers**, **Cloudflare D1 (SQLite)**, **KV**, and **Docker**.
+- 🌐 **Full-Stack Web Systems** — Enterprise edge applications engineered with **Astro 7 SSR**, **Next.js**, **React 19**, and **Tailwind CSS**.
+- ⚡ **Native Desktop Applications** — Sub-second low-latency systems built with **Tauri v2**, **Rust core**, **C#**, and **.NET**.
+- 🤖 **AI & Automation Engines** — Voice/audio pipeline processing with **WhisperX**, **FFmpeg**, and autonomous **WhatsApp Cloud API** workers.
+- ☁️ **Edge Cloud Infrastructure** — High-availability serverless deployments on **Cloudflare Workers**, **Cloudflare D1 (SQLite)**, **KV**, and **Docker**.
+
+<br/>
 
 <div align="center">
 
-| 🚀 Architecture | ⚡ Performance | 🛡️ Security |
+| 🏛️ Architecture | ⚡ Performance | 🛡️ Security |
 | :---: | :---: | :---: |
 | Distributed Edge Systems | Sub-second Latency & GPU Accel | Zero-Trust & DPDP Compliant |
 
@@ -29,101 +31,56 @@
 
 ---
 
-### &lt;/&gt; Tech Stack &amp; Tooling
+### 🛠️ Tech Stack & Tooling
 
-Here are the primary technologies, languages, and frameworks powering my production systems and architecture:
+<div align="center">
 
-<table>
-  <tr>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40" height="40" alt="React" /><br/>
-      <b>React 19</b>
-    </td>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="40" height="40" alt="Next.js" /><br/>
-      <b>Next.js</b>
-    </td>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript" /><br/>
-      <b>TypeScript</b>
-    </td>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40" alt="Python" /><br/>
-      <b>Python</b>
-    </td>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-original.svg" width="40" height="40" alt="Rust" /><br/>
-      <b>Rust</b>
-    </td>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="40" height="40" alt="C#" /><br/>
-      <b>C#</b>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" width="40" height="40" alt=".NET" /><br/>
-      <b>.NET</b>
-    </td>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/astro/astro-original.svg" width="40" height="40" alt="Astro" /><br/>
-      <b>Astro SSR</b>
-    </td>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cloudflare/cloudflare-original.svg" width="40" height="40" alt="Cloudflare" /><br/>
-      <b>Cloudflare</b>
-    </td>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" height="40" alt="Docker" /><br/>
-      <b>Docker</b>
-    </td>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" width="40" height="40" alt="SQLite" /><br/>
-      <b>D1 SQLite</b>
-    </td>
-    <td align="center" width="16.6%">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="40" height="40" alt="VS Code" /><br/>
-      <b>VS Code</b>
-    </td>
-  </tr>
-</table>
+[![React 19](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+
+[![Rust](https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=black)](https://www.rust-lang.org)
+[![Tauri v2](https://img.shields.io/badge/Tauri_v2-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)](https://tauri.app)
+[![Astro SSR](https://img.shields.io/badge/Astro_SSR-BC52EE?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://cloudflare.com)
+
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
+[![D1 SQLite](https://img.shields.io/badge/D1_SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org)
+[![C# .NET](https://img.shields.io/badge/C%23_.NET-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com)
+[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com)
+
+</div>
 
 ---
 
-### 🗂 Technical Stack Examples &amp; Engineering Showcases
+### 🚀 Production Showcases & Flagship Engineering
 
-Below are concrete implementations and production software built using each core stack:
+Below are concrete implementations and production software engineered across my core ecosystem:
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📺 <a href="https://github.com/samimaktar081/morningtv">MorningTV</a></h3>
-      <p><b>Stack:</b> <code>Rust</code> • <code>Tauri v2</code> • <code>GPU Dec</code> • <code>IPTV</code></p>
-      <p>Native 4K 60FPS video sentinel and bufferless IPTV media player engineered with a high-performance Rust core, sub-second channel zap (&lt;0.4s), and zero latency playback.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎙️ <a href="https://github.com/morningstarwebd/caption-ai">Caption AI</a></h3>
-      <p><b>Stack:</b> <code>Python</code> • <code>WhisperX</code> • <code>FastAPI</code> • <code>FFmpeg</code></p>
-      <p>State-of-the-art AI video captioning engine with Premiere Pro-inspired timeline editor. Word-level timestamp synchronization supporting Bengali, Hindi, English, and Hinglish.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎨 <a href="https://github.com/morningstarwebd/chitrax">Chitrax Studio</a></h3>
-      <p><b>Stack:</b> <code>WebAssembly</code> • <code>TypeScript</code> • <code>WebGPU</code> • <code>Web Workers</code></p>
-      <p>100% in-browser private image and PDF processing suite. Zero server uploads—heavy image manipulations and PDF conversions occur entirely client-side via WASM.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/morningstarwebd/morning-star-web-v4">MorningStar Web (v4)</a></h3>
-      <p><b>Stack:</b> <code>Astro 7 SSR</code> • <code>React 19</code> • <code>Cloudflare Workers</code> • <code>D1 SQLite</code></p>
-      <p>Edge-first monorepo unifying a public marketing website, Vite 8 + React 19 operational control center, and asynchronous Meta WhatsApp conversational queue worker.</p>
-    </td>
-  </tr>
-</table>
+#### 📺 [MorningTV](https://github.com/samimaktar081/morningtv)
+`Rust` • `Tauri v2` • `Axum Proxy` • `React 19` • `IPTV`
+> Native 4K 60FPS video sentinel and bufferless live TV media player engineered with a high-performance in-process Axum loopback proxy, 300% Web Audio sound booster, and sub-second channel switching (<0.4s).  
+> 👉 **[Explore Architecture & Showcase Repository →](https://github.com/samimaktar081/morningtv)**
+
+#### 🎙️ [Caption AI](https://morningstarweb.space)
+`Python` • `WhisperX` • `FastAPI` • `FFmpeg`
+> State-of-the-art AI video captioning engine with Premiere Pro-inspired timeline editor. Word-level timestamp synchronization supporting Bengali, Hindi, English, and Hinglish.  
+> 👉 **[Explore Product at MorningStar Web →](https://morningstarweb.space)**
+
+#### 🎨 [Chitrax Studio](https://morningstarweb.space)
+`WebAssembly` • `TypeScript` • `WebGPU` • `Web Workers`
+> 100% in-browser private image and PDF processing suite. Zero server uploads — heavy image manipulations and PDF conversions occur entirely client-side via WASM.  
+> 👉 **[Explore Product at MorningStar Web →](https://morningstarweb.space)**
+
+#### ⚡ [MorningStar Web (v4 Monorepo)](https://morningstarweb.space)
+`Astro 7 SSR` • `React 19` • `Cloudflare Workers` • `D1 SQLite`
+> Edge-first monorepo unifying a public marketing website, Vite 8 + React 19 operational control center, and asynchronous Meta WhatsApp conversational queue worker.  
+> 👉 **[Visit Platform →](https://morningstarweb.space)**
 
 ---
 
-### 📈 Contribution Activity
+### 📊 Contribution Activity
 
 <div align="center">
 
