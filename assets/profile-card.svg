@@ -1,0 +1,457 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap');
+      * {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+      .card-shadow {
+        filter: drop-shadow(0 12px 28px rgba(15, 23, 42, 0.06));
+      }
+    </style>
+
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+
+    <linearGradient id="starGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+
+    <linearGradient id="avatarBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EEF2FF" />
+      <stop offset="100%" stop-color="#E0E7FF" />
+    </linearGradient>
+
+    <linearGradient id="hoodieGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#312E81" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Card Frame -->
+  <rect x="8" y="8" width="784" height="464" rx="20" fill="url(#cardGrad)" stroke="#E2E8F0" stroke-width="1.5" class="card-shadow" />
+
+  <!-- ================= TOP HEADER ================= -->
+  <!-- Brand Status Pill -->
+  <g transform="translate(32, 28)">
+    <rect x="0" y="0" width="80" height="24" rx="12" fill="#3B82F6" />
+    <text x="40" y="16" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle">Founder</text>
+    <text x="92" y="17" fill="#0F172A" font-size="13" font-weight="700">MorningStar Web</text>
+  </g>
+
+  <!-- Top Right Branding & Official Links -->
+  <g transform="translate(560, 24)">
+    <!-- Star Logo Vector -->
+    <path d="M18 2 L21 13 L32 16 L21 19 L18 30 L15 19 L4 16 L15 13 Z" fill="url(#starGrad)" />
+    <path d="M9 8 L10 11 L13 12 L10 13 L9 16 L8 13 L5 12 L8 11 Z" fill="#F472B6" opacity="0.9" />
+    <text x="38" y="15" fill="#0F172A" font-size="14" font-weight="800">MorningStar Web</text>
+    <text x="38" y="27" fill="#64748B" font-size="9" font-weight="500">Software • Web • Applications</text>
+
+    <!-- Links List with Icons -->
+    <g transform="translate(4, 46)">
+      <!-- Globe Icon & Domain -->
+      <circle cx="6" cy="6" r="5" fill="none" stroke="#6366F1" stroke-width="1.2" />
+      <path d="M1 6 H11 M6 1 C8 3 8 9 6 11 M6 1 C4 3 4 9 6 11" fill="none" stroke="#6366F1" stroke-width="1.2" />
+      <text x="18" y="9.5" fill="#334155" font-size="10.5" font-weight="600">morningstarweb.space</text>
+
+      <!-- Portfolio Link -->
+      <g transform="translate(0, 18)">
+        <path d="M4 8 L8 4 C9 3 11 3 12 4 C13 5 13 7 12 8 L10 10 M8 6 L4 10 C3 11 3 13 4 14 C5 15 7 15 8 14 L10 12" fill="none" stroke="#6366F1" stroke-width="1.2" stroke-linecap="round" />
+        <text x="18" y="9.5" fill="#334155" font-size="10.5" font-weight="500">github.com/morningstarwebd</text>
+      </g>
+
+      <!-- Mail Link -->
+      <g transform="translate(0, 36)">
+        <rect x="2" y="2" width="11" height="8" rx="1.5" fill="none" stroke="#6366F1" stroke-width="1.2" />
+        <path d="M2 3.5 L7.5 7.5 L13 3.5" fill="none" stroke="#6366F1" stroke-width="1.2" stroke-linecap="round" />
+        <text x="18" y="9.5" fill="#334155" font-size="10.5" font-weight="500">contact@morningstarweb.space</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= HERO PROFILE ================= -->
+  <!-- Vector Avatar Silhouette (Zero raster, 100% vector) -->
+  <g transform="translate(32, 70)">
+    <!-- Avatar Base Circle -->
+    <circle cx="48" cy="48" r="46" fill="url(#avatarBg)" stroke="#CBD5E1" stroke-width="1.5" />
+    
+    <!-- Vector Character Illustration -->
+    <!-- Shoulders/Hoodie -->
+    <path d="M18 84 C20 62 34 56 48 56 C62 56 76 62 78 84 Z" fill="url(#hoodieGrad)" />
+    <!-- Neck -->
+    <rect x="42" y="46" width="12" height="14" rx="3" fill="#FBCFE8" />
+    <!-- Head / Face -->
+    <ellipse cx="48" cy="40" rx="15" ry="17" fill="#FDE047" opacity="0.9" />
+    <ellipse cx="48" cy="40" rx="14" ry="16" fill="#FCD34D" />
+    <!-- Modern Hair Cut -->
+    <path d="M32 38 C32 26 38 22 48 22 C58 22 64 26 64 38 C60 34 56 32 48 32 C40 32 36 34 32 38 Z" fill="#1E293B" />
+    <!-- Face details -->
+    <circle cx="43" cy="38" r="1.5" fill="#1E293B" />
+    <circle cx="53" cy="38" r="1.5" fill="#1E293B" />
+    <path d="M45 45 C46 47 50 47 51 45" stroke="#1E293B" stroke-width="1.2" stroke-linecap="round" fill="none" />
+    <!-- Online Green Active Dot -->
+    <circle cx="82" cy="80" r="7" fill="#22C55E" stroke="#FFFFFF" stroke-width="2.5" />
+  </g>
+
+  <!-- Profile Identity & Titles -->
+  <g transform="translate(150, 68)">
+    <text x="0" y="22" fill="#0F172A" font-size="22" font-weight="800">Samim Aktar</text>
+    <text x="0" y="40" fill="#64748B" font-size="12" font-weight="600">@samimaktar081</text>
+
+    <!-- Role Pill -->
+    <rect x="0" y="48" width="150" height="20" rx="10" fill="#DCFCE7" stroke="#BBF7D0" stroke-width="1" />
+    <text x="75" y="62" fill="#15803D" font-size="10" font-weight="700" text-anchor="middle">Founder, MorningStar Web</text>
+
+    <!-- Punchline Headline -->
+    <text x="0" y="90" fill="#0F172A" font-size="17" font-weight="800">
+      Building Useful <tspan fill="#6366F1">Digital Solutions.</tspan>
+    </text>
+
+    <!-- Subtitle Description -->
+    <text x="0" y="108" fill="#475569" font-size="11" font-weight="500">
+      Designing, developing and delivering production-grade web systems, desktop software, and AI automation.
+    </text>
+
+    <!-- Category Pill Tags -->
+    <g transform="translate(0, 120)">
+      <rect x="0" y="0" width="112" height="22" rx="11" fill="#EEF2FF" stroke="#E0E7FF" stroke-width="1" />
+      <text x="56" y="15" fill="#4F46E5" font-size="10" font-weight="600" text-anchor="middle">Web Development</text>
+
+      <rect x="120" y="0" width="112" height="22" rx="11" fill="#EEF2FF" stroke="#E0E7FF" stroke-width="1" />
+      <text x="176" y="15" fill="#4F46E5" font-size="10" font-weight="600" text-anchor="middle">App Development</text>
+
+      <rect x="240" y="0" width="112" height="22" rx="11" fill="#EEF2FF" stroke="#E0E7FF" stroke-width="1" />
+      <text x="296" y="15" fill="#4F46E5" font-size="10" font-weight="600" text-anchor="middle">AI &amp; Automation</text>
+    </g>
+  </g>
+
+  <!-- ================= MIDDLE SECTION ================= -->
+  <!-- Left Card: About Me -->
+  <g transform="translate(32, 230)">
+    <rect x="0" y="0" width="345" height="152" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+    
+    <!-- Header -->
+    <rect x="16" y="14" width="16" height="13" rx="2" fill="none" stroke="#3B82F6" stroke-width="1.4" />
+    <circle cx="24" cy="18" r="2" fill="#3B82F6" />
+    <path d="M20 24 C20 22 28 22 28 24" fill="none" stroke="#3B82F6" stroke-width="1.4" />
+    <text x="38" y="25" fill="#0F172A" font-size="13" font-weight="700">About Me</text>
+
+    <!-- Description -->
+    <text x="16" y="46" fill="#475569" font-size="10.5" font-weight="400">
+      <tspan x="16" dy="0">Developer, product builder, and founder of MorningStar Web.</tspan>
+      <tspan x="16" dy="15">Focused on crafting scalable systems &amp; practical digital tools.</tspan>
+    </text>
+
+    <!-- Checklist with Green Icons -->
+    <g transform="translate(16, 80)">
+      <!-- Item 1 -->
+      <circle cx="6" cy="6" r="6" fill="#22C55E" />
+      <path d="M3.5 6 L5.5 8 L9 4" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" />
+      <text x="18" y="9.5" fill="#1E293B" font-size="10" font-weight="600">Full-Stack Web Systems (Astro, Next.js, React 19)</text>
+
+      <!-- Item 2 -->
+      <g transform="translate(0, 16)">
+        <circle cx="6" cy="6" r="6" fill="#22C55E" />
+        <path d="M3.5 6 L5.5 8 L9 4" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" />
+        <text x="18" y="9.5" fill="#1E293B" font-size="10" font-weight="600">Native Desktop Applications (Tauri v2, Rust, C#)</text>
+      </g>
+
+      <!-- Item 3 -->
+      <g transform="translate(0, 32)">
+        <circle cx="6" cy="6" r="6" fill="#22C55E" />
+        <path d="M3.5 6 L5.5 8 L9 4" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" />
+        <text x="18" y="9.5" fill="#1E293B" font-size="10" font-weight="600">AI &amp; Automation Engines (WhisperX, LLMs, Meta APIs)</text>
+      </g>
+
+      <!-- Item 4 -->
+      <g transform="translate(0, 48)">
+        <circle cx="6" cy="6" r="6" fill="#22C55E" />
+        <path d="M3.5 6 L5.5 8 L9 4" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" />
+        <text x="18" y="9.5" fill="#1E293B" font-size="10" font-weight="600">Edge Cloud Infrastructure (Cloudflare Workers, D1 SQLite)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Card: Tech Stack & Tooling -->
+  <g transform="translate(390, 230)">
+    <rect x="0" y="0" width="378" height="152" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+    
+    <!-- Header -->
+    <text x="16" y="25" fill="#3B82F6" font-size="13" font-weight="800">&lt;/&gt;</text>
+    <text x="40" y="25" fill="#0F172A" font-size="13" font-weight="700">Tech Stack &amp; Tooling</text>
+
+    <!-- Tech Icons Grid (Two Rows) -->
+    <!-- Row 1 -->
+    <g transform="translate(18, 42)">
+      <!-- React -->
+      <g transform="translate(8, 0)">
+        <ellipse cx="12" cy="12" rx="11" ry="4" fill="none" stroke="#00D8FE" stroke-width="1.2" transform="rotate(30 12 12)" />
+        <ellipse cx="12" cy="12" rx="11" ry="4" fill="none" stroke="#00D8FE" stroke-width="1.2" transform="rotate(90 12 12)" />
+        <ellipse cx="12" cy="12" rx="11" ry="4" fill="none" stroke="#00D8FE" stroke-width="1.2" transform="rotate(150 12 12)" />
+        <circle cx="12" cy="12" r="2" fill="#00D8FE" />
+        <text x="12" y="32" fill="#334155" font-size="8.5" font-weight="600" text-anchor="middle">React 19</text>
+      </g>
+
+      <!-- Next.js -->
+      <g transform="translate(74, 0)">
+        <circle cx="12" cy="12" r="11" fill="#000000" />
+        <text x="12" y="16" fill="#FFFFFF" font-size="9" font-weight="800" text-anchor="middle">N</text>
+        <text x="12" y="32" fill="#334155" font-size="8.5" font-weight="600" text-anchor="middle">Next.js</text>
+      </g>
+
+      <!-- TypeScript -->
+      <g transform="translate(140, 0)">
+        <rect x="2" y="2" width="20" height="20" rx="3" fill="#3178C6" />
+        <text x="12" y="16" fill="#FFFFFF" font-size="9" font-weight="800" text-anchor="middle">TS</text>
+        <text x="12" y="32" fill="#334155" font-size="8.5" font-weight="600" text-anchor="middle">TypeScript</text>
+      </g>
+
+      <!-- Python -->
+      <g transform="translate(210, 0)">
+        <circle cx="12" cy="12" r="10" fill="#3776AB" opacity="0.15" />
+        <path d="M12 4 C8 4 8 6 8 6 L8 9 L13 9 L13 10 L6 10 C4 10 3 12 3 14 C3 16 5 16 5 16 L7 16 L7 14 C7 12 9 12 9 12 L14 12 C16 12 16 10 16 10 L16 7 C16 5 14 4 12 4 Z" fill="#3776AB" />
+        <path d="M12 20 C16 20 16 18 16 18 L16 15 L11 15 L11 14 L18 14 C20 14 21 12 21 10 C21 8 19 8 19 8 L17 8 L17 10 C17 12 15 12 15 12 L10 12 C8 12 8 14 8 14 L8 17 C8 19 10 20 12 20 Z" fill="#FFD43B" />
+        <text x="12" y="32" fill="#334155" font-size="8.5" font-weight="600" text-anchor="middle">Python</text>
+      </g>
+
+      <!-- Rust -->
+      <g transform="translate(280, 0)">
+        <circle cx="12" cy="12" r="10" fill="#DEA584" opacity="0.3" />
+        <circle cx="12" cy="12" r="8" fill="none" stroke="#DEA584" stroke-width="2" />
+        <text x="12" y="15.5" fill="#000000" font-size="7.5" font-weight="800" text-anchor="middle">RS</text>
+        <text x="12" y="32" fill="#334155" font-size="8.5" font-weight="600" text-anchor="middle">Rust</text>
+      </g>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(18, 92)">
+      <!-- C# -->
+      <g transform="translate(8, 0)">
+        <polygon points="12,2 21,7 21,17 12,22 3,17 3,7" fill="#239120" opacity="0.2" />
+        <polygon points="12,3 20,7.5 20,16.5 12,21 4,16.5 4,7.5" fill="none" stroke="#239120" stroke-width="1.3" />
+        <text x="12" y="15" fill="#239120" font-size="8.5" font-weight="800" text-anchor="middle">C#</text>
+        <text x="12" y="32" fill="#334155" font-size="8.5" font-weight="600" text-anchor="middle">C#</text>
+      </g>
+
+      <!-- .NET -->
+      <g transform="translate(74, 0)">
+        <circle cx="12" cy="12" r="10" fill="#512BD4" />
+        <text x="12" y="15" fill="#FFFFFF" font-size="7" font-weight="800" text-anchor="middle">.NET</text>
+        <text x="12" y="32" fill="#334155" font-size="8.5" font-weight="600" text-anchor="middle">.NET</text>
+      </g>
+
+      <!-- Astro -->
+      <g transform="translate(140, 0)">
+        <circle cx="12" cy="12" r="10" fill="#BC52EE" />
+        <text x="12" y="15" fill="#FFFFFF" font-size="8" font-weight="800" text-anchor="middle">Astro</text>
+        <text x="12" y="32" fill="#334155" font-size="8.5" font-weight="600" text-anchor="middle">Astro SSR</text>
+      </g>
+
+      <!-- Cloudflare -->
+      <g transform="translate(210, 0)">
+        <circle cx="12" cy="12" r="10" fill="#F38020" />
+        <text x="12" y="15" fill="#FFFFFF" font-size="7" font-weight="800" text-anchor="middle">CF</text>
+        <text x="12" y="32" fill="#334155" font-size="8.5" font-weight="600" text-anchor="middle">Cloudflare</text>
+      </g>
+
+      <!-- Docker -->
+      <g transform="translate(280, 0)">
+        <path d="M4 14 C4 18 8 20 13 20 C18 20 21 16 21 14 C20 14 18 15 15 15 C14 12 12 12 12 12 C10 12 8 14 4 14 Z" fill="#2496ED" />
+        <rect x="6" y="10" width="2" height="2" fill="#2496ED" />
+        <rect x="9" y="10" width="2" height="2" fill="#2496ED" />
+        <rect x="12" y="10" width="2" height="2" fill="#2496ED" />
+        <rect x="9" y="7" width="2" height="2" fill="#2496ED" />
+        <rect x="12" y="7" width="2" height="2" fill="#2496ED" />
+        <text x="12" y="32" fill="#334155" font-size="8.5" font-weight="600" text-anchor="middle">Docker</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= BOTTOM SECTION ================= -->
+  <!-- GitHub Stats (Left) -->
+  <g transform="translate(32, 396)">
+    <path d="M6 0 C2.7 0 0 2.7 0 6 C0 8.6 1.7 10.9 4.1 11.7 C4.4 11.8 4.5 11.6 4.5 11.4 L4.5 9.7 C2.8 10.1 2.5 8.9 2.5 8.9 C2.2 8.2 1.8 8.0 1.8 8.0 C1.3 7.6 1.9 7.6 1.9 7.6 C2.5 7.6 2.8 8.2 2.8 8.2 C3.3 9.1 4.2 8.8 4.5 8.7 C4.6 8.3 4.7 8.0 4.9 7.8 C3.6 7.7 2.2 7.2 2.2 4.9 C2.2 4.2 2.4 3.7 2.8 3.3 C2.8 3.1 2.5 2.5 2.9 1.6 C2.9 1.6 3.4 1.4 4.5 2.2 C5.0 2.1 5.5 2.0 6.0 2.0 C6.5 2.0 7.0 2.1 7.5 2.2 C8.6 1.4 9.1 1.6 9.1 1.6 C9.5 2.5 9.2 3.1 9.2 3.3 C9.6 3.7 9.8 4.2 9.8 4.9 C9.8 7.2 8.4 7.7 7.1 7.8 C7.3 8.0 7.5 8.4 7.5 9.0 L7.5 11.4 C7.5 11.6 7.6 11.8 7.9 11.7 C10.3 10.9 12 8.6 12 6 C12 2.7 9.3 0 6 0 Z" fill="#0F172A" transform="translate(0, 1)" />
+    <text x="18" y="11" fill="#0F172A" font-size="12" font-weight="700">Engineering Focus</text>
+
+    <!-- Badges / Focus Areas -->
+    <g transform="translate(0, 18)">
+      <rect x="0" y="0" width="105" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+      <text x="52.5" y="18" fill="#0F172A" font-size="11" font-weight="800" text-anchor="middle">Architecture</text>
+      <text x="52.5" y="32" fill="#64748B" font-size="8.5" font-weight="500" text-anchor="middle">Edge Systems</text>
+
+      <rect x="113" y="0" width="105" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+      <text x="165.5" y="18" fill="#0F172A" font-size="11" font-weight="800" text-anchor="middle">Performance</text>
+      <text x="165.5" y="32" fill="#64748B" font-size="8.5" font-weight="500" text-anchor="middle">Low Latency</text>
+
+      <rect x="226" y="0" width="105" height="42" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.2" />
+      <text x="278.5" y="18" fill="#0F172A" font-size="11" font-weight="800" text-anchor="middle">Security</text>
+      <text x="278.5" y="32" fill="#64748B" font-size="8.5" font-weight="500" text-anchor="middle">Zero-Trust</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="380" y1="400" x2="380" y2="455" stroke="#E2E8F0" stroke-width="1" />
+
+  <!-- Contribution Activity (Right) -->
+  <g transform="translate(398, 396)">
+    <text x="0" y="11" fill="#0F172A" font-size="12" font-weight="700">Contribution Activity</text>
+
+    <!-- Heatmap Grid -->
+    <g transform="translate(0, 18)">
+      <rect x="0" y="0.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="0" y="9.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="0" y="19.0" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="0" y="28.5" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="11" y="0.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="11" y="9.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="11" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="11" y="28.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="22" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="22" y="9.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="22" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="22" y="28.5" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="33" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="33" y="9.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="33" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="33" y="28.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="44" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="44" y="9.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="44" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="44" y="28.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="55" y="0.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="55" y="9.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="55" y="19.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="55" y="28.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="66" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="66" y="9.5" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="66" y="19.0" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="66" y="28.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="77" y="0.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="77" y="9.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="77" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="77" y="28.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="88" y="0.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="88" y="9.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="88" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="88" y="28.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="99" y="0.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="99" y="9.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="99" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="99" y="28.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="110" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="110" y="9.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="110" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="110" y="28.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="121" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="121" y="9.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="121" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="121" y="28.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="132" y="0.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="132" y="9.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="132" y="19.0" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="132" y="28.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="143" y="0.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="143" y="9.5" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="143" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="143" y="28.5" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="154" y="0.0" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="154" y="9.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="154" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="154" y="28.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="165" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="165" y="9.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="165" y="19.0" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="165" y="28.5" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="176" y="0.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="176" y="9.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="176" y="19.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="176" y="28.5" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="187" y="0.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="187" y="9.5" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="187" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="187" y="28.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="198" y="0.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="198" y="9.5" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="198" y="19.0" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="198" y="28.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="209" y="0.0" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="209" y="9.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="209" y="19.0" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="209" y="28.5" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="220" y="0.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="220" y="9.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="220" y="19.0" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="220" y="28.5" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="231" y="0.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="231" y="9.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="231" y="19.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="231" y="28.5" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="242" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="242" y="9.5" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="242" y="19.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="242" y="28.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="253" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="253" y="9.5" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="253" y="19.0" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="253" y="28.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="264" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="264" y="9.5" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="264" y="19.0" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="264" y="28.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="275" y="0.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="275" y="9.5" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="275" y="19.0" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="275" y="28.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="286" y="0.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="286" y="9.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="286" y="19.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="286" y="28.5" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="297" y="0.0" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="297" y="9.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="297" y="19.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="297" y="28.5" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="308" y="0.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="308" y="9.5" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="308" y="19.0" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="308" y="28.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="319" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="319" y="9.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="319" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="319" y="28.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="330" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="330" y="9.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="330" y="19.0" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="330" y="28.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="341" y="0.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="341" y="9.5" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="341" y="19.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="341" y="28.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="352" y="0.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="352" y="9.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="352" y="19.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="352" y="28.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="363" y="0.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="363" y="9.5" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="363" y="19.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="363" y="28.5" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="374" y="0.0" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="374" y="9.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+      <rect x="374" y="19.0" width="9" height="7.5" rx="1.5" fill="#9BE9A8" />
+      <rect x="374" y="28.5" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="385" y="0.0" width="9" height="7.5" rx="1.5" fill="#EBEDF0" />
+      <rect x="385" y="9.5" width="9" height="7.5" rx="1.5" fill="#216E39" />
+      <rect x="385" y="19.0" width="9" height="7.5" rx="1.5" fill="#30A14E" />
+      <rect x="385" y="28.5" width="9" height="7.5" rx="1.5" fill="#40C463" />
+    </g>
+  </g>
+
+</svg>
