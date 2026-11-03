@@ -73,10 +73,10 @@ Below are concrete implementations and production software engineered across my 
 > State-of-the-art AI video captioning engine with Premiere Pro-inspired timeline editor. Word-level timestamp synchronization supporting Bengali, Hindi, English, and Hinglish.  
 > 👉 **[Explore Product at MorningStar Web →](https://morningstarweb.space)**
 
-#### 🎨 [Chitrax Studio](https://morningstarweb.space)
-`WebAssembly` • `TypeScript` • `WebGPU` • `Web Workers`
-> 100% in-browser private image and PDF processing suite. Zero server uploads — heavy image manipulations and PDF conversions occur entirely client-side via WASM.  
-> 👉 **[Explore Product at MorningStar Web →](https://morningstarweb.space)**
+#### 🎨 [Chitrax Studio](https://github.com/samimaktar081/chitrax)
+`Astro 7` • `React 19` • `Rust WASM` • `Web Workers` • `100% In-Browser`
+> 100% in-browser private image and PDF creative workspace. Zero server uploads — 18 active tools (AI background removal, batch image compressor, passport photo maker, PDF merger/splitter/converter) execute entirely client-side via Rust WebAssembly and local ONNX neural models.  
+> 👉 **[Explore Architecture & Showcase Repo →](https://github.com/samimaktar081/chitrax)** &nbsp;•&nbsp; **[Launch Live Web Suite (chitrax.app) →](https://chitrax.app)**
 
 #### ⚡ [MorningStar Web (v4 Monorepo)](https://morningstarweb.space)
 `Astro 7 SSR` • `React 19` • `Cloudflare Workers` • `D1 SQLite`
